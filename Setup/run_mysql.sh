@@ -11,8 +11,8 @@ do
     echo '\033[0;32mRun' $i '\033[0m'
     mysql -u root < scripts/drop.sql
     time --format='tables creation took %e seconds' mysql -u root < scripts/mysql/tables_mysql.sql
-    time --format='keys creation took %e seconds' mysql -u root < scripts/mysql/keys_mysql.sql
     time --format='load data took %e seconds' mysql -u root < scripts/mysql/load_mysql.sql
+    time --format='keys creation took %e seconds' mysql -u root < scripts/mysql/keys_mysql.sql
     echo
 
     # benchmark
