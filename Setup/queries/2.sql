@@ -25,10 +25,10 @@ where
 		select
 			min(ps_supplycost)
 		from
-			partsupp,
-			supplier,
-			nation,
-			region
+			PARTSUPP,
+			SUPPLIER,
+			NATION,
+			REGION
 		where
 			p_partkey = ps_partkey
 			and s_suppkey = ps_suppkey

@@ -10,7 +10,7 @@ where
 		select
 			*
 		from
-			lineitem
+			LINEITEM
 		where
 			l_orderkey = o_orderkey
 			and l_commitdate < l_receiptdate
