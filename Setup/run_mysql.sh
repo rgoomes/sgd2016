@@ -1,7 +1,7 @@
 #!/bin/sh
 
-# USAGE: ./run_postgre.sh [number of runs] [number of clients/queries]
-# EXAMPLE: ./run_postgre.sh 10 100
+# USAGE: ./run_mysql.sh [number of runs] [number of clients/queries]
+# EXAMPLE: ./run_mysql.sh 10 100
 
 # First disable mysql root password with:
 # SET PASSWORD FOR root@localhost=PASSWORD('');
