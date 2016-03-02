@@ -1,0 +1,4 @@
+\connect project1sgd;
+
+ALTER TABLE PART
+ADD PRIMARY KEY (P_PARTKEY);

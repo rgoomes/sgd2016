@@ -1,0 +1,4 @@
+\connect project1sgd;
+
+ALTER TABLE REGION
+ADD PRIMARY KEY (R_REGIONKEY);

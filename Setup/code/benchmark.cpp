@@ -1,8 +1,7 @@
+#include <stdio.h>
 #include <stdlib.h>
-
-#include <thread>
-#include <mutex>
-#include <vector>
+#include <string>
+#include <string.h>
 
 using namespace std;
 
