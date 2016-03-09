@@ -3,6 +3,10 @@
 #include <string>
 #include <string.h>
 
+#include <mutex>
+#include <thread>
+#include <vector>
+
 using namespace std;
 
 mutex mtx;
